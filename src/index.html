@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SatietyAI - AI Automation for Small Business</title>
+    <meta name="description" content="Practical AI solutions for beginners and business owners. Learn AI, implement automation, and grow your business.">
+
+    <!-- Open Graph (for LinkedIn/Facebook sharing) -->
+    <meta property="og:title" content="SatietyAI - AI Automation for Small Business">
+    <meta property="og:description" content="Practical AI solutions for beginners and business owners.">
+    <meta property="og:url" content="https://satietyai.io">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SatietyAI - AI Automation for Small Business">
+    <meta name="twitter:description" content="Practical AI solutions for beginners and business owners.">
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3d84a8',
+                        secondary: '#591655',
+                        accent: '#E63946',
+                        dark: '#1C1C1C',
+                        light: '#F8F9FA',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+    </style>
+
+    <!-- MailerLite Universal -->
+    <script>
+        (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+        .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+        n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+        ml('account', '1938151');
+    </script>
+    <!-- End MailerLite Universal -->
+</head>
+<body class="bg-light text-dark">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <a href="/" class="flex items-center">
+                    <img src="/assets/images/logo-dark.svg" alt="SatietyAI" class="h-12 w-auto">
+                </a>
+
+                <!-- Social Icons -->
+                <div class="flex items-center space-x-4">
+                    <!-- LinkedIn -->
+                    <a href="https://linkedin.com/in/lewis-sloan-satietyai" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-primary transition" aria-label="LinkedIn">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <!-- Email -->
+                    <a href="mailto:hello@satietyai.io" class="text-gray-600 hover:text-primary transition" aria-label="Email">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary to-secondary text-white py-16 md:py-24 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+            <!-- Large Logo -->
+            <div class="mb-8">
+                <img src="/assets/images/logo-light.svg" alt="SatietyAI" class="h-24 md:h-32 w-auto mx-auto">
+            </div>
+
+            <!-- Tagline -->
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">
+                Learn AI. Implement AI. Grow Your Business.
+            </h1>
+
+            <!-- Subheadline -->
+            <p class="text-lg md:text-xl mb-6 opacity-90">
+                Practical AI solutions for beginners and business owners.<br class="hidden sm:inline">
+                Tools, tutorials, and done-for-you services.
+            </p>
+
+            <!-- Launch Badge -->
+            <div class="inline-block bg-white/20 backdrop-blur rounded-full px-6 py-3">
+                <span class="text-lg font-semibold">
+                    Full Site Launching December 2025
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Coming Section -->
+    <section class="py-16 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">What's Coming</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Learn -->
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Learn</h3>
+                    <p class="text-gray-600">Hands-on AI tutorials and courses for beginners</p>
+                </div>
+
+                <!-- Implement -->
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                    <div class="w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Implement</h3>
+                    <p class="text-gray-600">Department-by-department AI solutions for small business</p>
+                </div>
+
+                <!-- Services -->
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                    <div class="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Services</h3>
+                    <p class="text-gray-600">AI-powered UGC video creation for brands</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-white py-16 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6">About SatietyAI</h2>
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                SatietyAI was founded by Lewis Sloan to help small business owners and AI beginners cut through the hype and find practical solutions that actually work. Whether you're looking to learn AI hands-on or implement automation in your business, we're here to guide you from confusion to confidence.
+            </p>
+            <a href="https://linkedin.com/in/lewis-sloan-satietyai" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-primary hover:bg-secondary text-white font-semibold px-6 py-3 rounded-lg transition">
+                Connect on LinkedIn
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup Section -->
+    <section class="bg-gradient-to-br from-secondary to-primary py-16 px-4">
+        <div class="max-w-xl mx-auto text-center text-white">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">Get Early Access</h2>
+            <p class="text-lg mb-8 opacity-90">
+                Join the waitlist for launch updates, AI tips, and exclusive early access.
+            </p>
+
+            <!-- MailerLite Embedded Form -->
+            <div class="ml-embedded" data-form="g8U76z"></div>
+            <p class="text-sm mt-4 opacity-70">No spam. Unsubscribe anytime.</p>
+        </div>
+    </section>
+
+    <!-- Social Links Section -->
+    <section class="py-16 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-8">Follow Along</h2>
+            <div class="flex justify-center items-center space-x-6">
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com/in/lewis-sloan-satietyai" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center text-gray-600 hover:text-primary transition">
+                    <div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center mb-2 hover:bg-primary/10 transition">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </div>
+                    <span class="text-sm font-medium">LinkedIn</span>
+                </a>
+
+                <!-- YouTube (placeholder) -->
+                <a href="#" class="flex flex-col items-center text-gray-400 cursor-not-allowed">
+                    <div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center mb-2">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </div>
+                    <span class="text-sm font-medium">Coming Soon</span>
+                </a>
+
+                <!-- Instagram (placeholder) -->
+                <a href="#" class="flex flex-col items-center text-gray-400 cursor-not-allowed">
+                    <div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center mb-2">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </div>
+                    <span class="text-sm font-medium">Coming Soon</span>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:hello@satietyai.io" class="flex flex-col items-center text-gray-600 hover:text-primary transition">
+                    <div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center mb-2 hover:bg-primary/10 transition">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <span class="text-sm font-medium">Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-8 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+                <p>&copy; 2025 SatietyAI. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="/privacy.html" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="/terms.html" class="hover:text-white transition">Terms of Service</a>
+                    <a href="mailto:hello@satietyai.io" class="hover:text-white transition">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

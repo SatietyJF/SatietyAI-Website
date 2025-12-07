@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p:*)",
+      "Bash(copy \"C:\\Users\\MrsJF\\Downloads\\noBgBlack.svg\" \"D:\\Users\\MrsJF\\Claude_CLI_Projects\\SatietyAI-Website\\src\\assets\\images\\logo-dark.svg\")",
+      "Bash(copy \"C:\\Users\\MrsJF\\Desktop\\Satiety Logo folder\\noBgColor.svg\" \"D:\\Users\\MrsJF\\Claude_CLI_Projects\\SatietyAI-Website\\src\\assets\\images\\logo-light.svg\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
