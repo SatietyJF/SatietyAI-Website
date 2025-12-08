@@ -1,39 +1,52 @@
 # SatietyAI Website - Task Tracker
 
-## Currently Working On
+## Current Status
 
-- [ ] Create base layout (header, nav, footer)
-- [ ] Build homepage
+**TEMPORARY LANDING PAGE IS LIVE** at https://satietyai.io
 
----
-
-## Up Next (Priority Order)
-
-1. [ ] Get brand assets from Lewie (logo, colors, tagline)
-2. [ ] About page
-3. [ ] Newsletter signup page
-4. [ ] Services overview + pricing
+This is a "Coming Soon" page for PartnerStack affiliate review. Full site build is paused until ready to continue.
 
 ---
 
-## Backlog
+## Completed (December 7-8, 2025)
 
-### Phase 1: Foundation
+- [x] Temporary landing page created and deployed
+- [x] MailerLite universal script integrated
+- [x] MailerLite form embedded (data-form="g8U76z")
+- [x] Privacy Policy page created
+- [x] Terms of Service page created
+- [x] GitHub repository set up (SatietyJF/SatietyAI-Website)
+- [x] Cloudflare Pages deployment configured
+- [x] Custom domain connected (satietyai.io + www.satietyai.io)
+- [x] DNS transferred to Cloudflare
+- [x] SSL certificate active
+- [x] Logo integrated (dark + light versions)
+- [x] Brand colors applied (from Looka Brand Kit)
+- [x] LinkedIn link added (lewis-sloan-satietyai)
+- [x] Founder bio/About section written
+
+---
+
+## Previously Completed
+
+- [x] Project brief created (Nov 30, 2025)
+- [x] CLAUDE.md project memory file created
+- [x] TODO.md tracking created
+- [x] Project folder structure created (Nov 30, 2025)
+- [x] Tech stack decided: Static HTML + Tailwind CDN (Nov 30, 2025)
 - [x] Initialize project structure
-- [x] Decide: Static HTML vs Astro/11ty (chose Static HTML)
-- [x] Set up Tailwind CSS (via CDN)
-- [ ] Create base layout (header, nav, footer)
-- [ ] Build homepage
-- [ ] Test MailerLite form integration
-- [ ] Set up Cloudflare Pages deployment
+- [x] Logo files obtained (logo-dark.svg, logo-light.svg)
+- [x] Color palette finalized (from Looka Brand Kit)
 
-### Phase 2: Core Pages
-- [ ] About page
-- [ ] Newsletter signup page
-- [ ] Services overview + pricing
+---
+
+## When Ready to Build Full Site
+
+### Phase 2: Core Pages (Remaining)
+- [ ] About page (full version)
+- [ ] Newsletter dedicated page
+- [ ] Services overview + UGC pricing
 - [ ] Portfolio page (placeholder state)
-- [ ] Privacy policy
-- [ ] Terms of service
 
 ### Phase 3: Learn Section
 - [ ] Learn overview page
@@ -43,7 +56,7 @@
 
 ### Phase 4: Business Section
 - [ ] Business overview page
-- [ ] Sales department page (template)
+- [ ] Sales department page
 - [ ] Marketing department page
 - [ ] Operations department page
 - [ ] Finance department page
@@ -59,47 +72,28 @@
 - [ ] Performance optimization
 - [ ] Launch checklist complete
 
-### Content Needed from Lewie
-- [ ] Logo (SVG + PNG)
-- [ ] Color palette (from logo)
-- [ ] Homepage tagline/value prop
-- [ ] About page founder story
-- [ ] Font preferences (or approve suggestions)
-
-### Integrations
-- [ ] MailerLite forms embedded (all locations)
-- [ ] Analytics tracking verified
-- [ ] Affiliate links added (as approved)
-
 ---
 
-## Completed
+## Integrations Status
 
-- [x] Project brief created (Nov 30, 2025)
-- [x] CLAUDE.md project memory file created
-- [x] TODO.md tracking created
-- [x] Project folder structure created (Nov 30, 2025)
-- [x] Tech stack decided: Static HTML + Tailwind CDN (Nov 30, 2025)
-
----
-
-## Blocked / Waiting
-
-| Task | Waiting On | Added |
-|------|------------|-------|
-| Logo integration | Final logo files from Lewie | Nov 30 |
-| Homepage hero | Tagline copy | Nov 30 |
-| Color palette | Logo finalization | Nov 30 |
-| Loom affiliate | Need live site first (Dec 7) | Nov 30 |
+| Integration | Status | Notes |
+|-------------|--------|-------|
+| MailerLite | DONE | Form embedded, account 1938151 |
+| Cloudflare Pages | DONE | Auto-deploys from GitHub |
+| GitHub | DONE | SatietyJF/SatietyAI-Website |
+| LinkedIn | DONE | lewis-sloan-satietyai |
+| Analytics | PENDING | Not yet set up |
+| Affiliate links | PENDING | Waiting for approvals |
 
 ---
 
 ## Notes
 
-- **Launch deadline:** December 7, 2025
-- **Priority:** Functional > Pretty. Get core pages working first.
-- **Placeholder content is OK** for launch. Mark clearly as "Coming Soon."
+- **Temporary page launched:** December 7-8, 2025
+- **Purpose:** Satisfy PartnerStack affiliate review
+- **Full site:** Build when ready, all code is in GitHub
+- **To deploy updates:** Push to GitHub, Cloudflare auto-deploys
 
 ---
 
-*Last Updated: November 30, 2025*
+*Last Updated: December 8, 2025*
