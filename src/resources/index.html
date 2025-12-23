@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Resources | SatietyAI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header p {
+            color: #a0a0a0;
+            font-size: 1.1rem;
+        }
+        
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .course-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(233, 69, 96, 0.2);
+        }
+        
+        .course-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        
+        .course-card p {
+            color: #a0a0a0;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+        
+        .course-card a {
+            display: inline-block;
+            color: #e94560;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        .course-card a:hover {
+            color: #ff6b6b;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .badge-satiety {
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            color: #fff;
+        }
+        
+        .badge-fsme {
+            background: #4a90a4;
+            color: #fff;
+        }
+        
+        .badge-core {
+            background: #555;
+            color: #fff;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+        
+        .footer a {
+            color: #e94560;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SatietyAI Resources</h1>
+            <p>Financial literacy course materials & worksheets</p>
+        </div>
+        
+        <div class="courses-grid">
+            <div class="course-card">
+                <span class="badge badge-core">Universal</span>
+                <h3>Core Resources</h3>
+                <p>Unbranded black & white printable worksheets. Works with any course.</p>
+                <a href="./core/">Browse Core PDFs →</a>
+            </div>
+            
+            <div class="course-card">
+                <span class="badge badge-satiety">SatietyAI</span>
+                <h3>Teen Edition</h3>
+                <p>Financial foundations course designed for teenagers.</p>
+                <a href="./teen/">Browse Teen Resources →</a>
+            </div>
+            
+            <div class="course-card">
+                <span class="badge badge-satiety">SatietyAI</span>
+                <h3>Young Adult Edition</h3>
+                <p>Financial foundations course for single young adults.</p>
+                <a href="./young-adult/">Browse YA Resources →</a>
+            </div>
+            
+            <div class="course-card">
+                <span class="badge badge-satiety">SatietyAI</span>
+                <h3>Couples Edition</h3>
+                <p>Financial foundations course for married couples.</p>
+                <a href="./couples/">Browse Couples Resources →</a>
+            </div>
+            
+            <div class="course-card">
+                <span class="badge badge-fsme">FSME</span>
+                <h3>Financial Stability Made Easy</h3>
+                <p>Flagship comprehensive course. Most complete edition.</p>
+                <a href="./fsme/">Browse FSME Resources →</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 <a href="https://satietyai.io">SatietyAI</a>. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
